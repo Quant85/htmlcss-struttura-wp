@@ -24,8 +24,12 @@
   border-radius: 5px;
 }
 
-.pd-10{
-  padding: 10px;
+.pd-20{
+  padding: 20px;
+}
+
+.pd-8{
+  padding: 8px;
 }
 
 /* End Class Utility */
@@ -52,7 +56,7 @@ header{
 
 .header-row-top{
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   min-height: 180px;
   padding: 2px;
   border: 1px solid black;
@@ -100,7 +104,7 @@ header{
 
 .nav-item, .nav-item > a{
   color: #fff;
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight: 600;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
   display: inline-block;
@@ -135,6 +139,7 @@ aside.column{
 }
 
 aside.column.dx h2 {
+  font-size: 1.4em;
   font-weight: 400;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
   color: #504741;
@@ -143,7 +148,7 @@ aside.column.dx h2 {
 
 aside.sx h2{
   width: 75%;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 400;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
   color: #504741;
@@ -164,7 +169,7 @@ aside.column.sx > ul a{
 main.center{
   width: 60%;
   margin: 24px 5%;
-  padding: 10px 30px 30px;
+  padding: 20px 30px 30px;
   /* box-shadow: 1px 1px 1px black, -1px -1px 1px black; */
 }
 
@@ -197,7 +202,36 @@ p{
 }
 
 footer.contact{
+  text-align: center;
   width: 100%;
-  height: 80px;
-  background-color: darkmagenta;
+  height: 140px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.contact-link{
+  color: #959595;
+  text-decoration: none;
+}
+
+h3.made{
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  line-height: 1.8;
+  border-bottom: 1px solid #cecece;
+}
+
+.contact-bottom{
+  font-size: calc(110px / 3);
+  position: relative;
+  top: 25%;
+}
+
+.contact-link .icon {
+  padding: 0 calc(100% / 6.6)
+}
+
+.contact-link:hover{
+  color:#ff3399;
 }
