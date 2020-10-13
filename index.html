@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang=it dir="ltr">
   <head>
+    <!-- meta tag seo-->
     <meta charset="utf-8">
+
+    <!-- risorse collegate -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
     <title>Natural – A versatile business website and blog with a natural and earthy design</title>
+
   </head>
   <body class="home page-template">
-    <header>
-      <div class="header-top"></div>
-      <nav>
-        <ul>
-          <li class="nav-item"><a href="#">home</a></li>
-          <li class="nav-item"><a href="#">about</a></li>
-          <li class="nav-item"><a href="#">page templates</a></li>
-          <li class="nav-item"><a href="#">a parent page</a></li>
-          <li class="nav-item"><a href="#">features</a></li>
-          <li class="nav-item"><a href="#">blog</a></li>
-          <li class="nav-item"><a href="#">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <aside class="column left"></aside>
-    <main class="center"></main>
-    <aside class="column right">
-      <div class="vertical-box"></div>
-      <div class="vertical-box"></div>
-      <div class="vertical-box"></div>
-    </aside>
+    <!-- creiamo un contenitore che avvolge la page -->
+    <div class="container wrap">
 
-    <footer>
-      <div class="top"></div>
-      <div class="bottom">
-        <i class="facebook"></i>
-        <i class="instagram"></i>
-        <i class="github"></i>
+      <header>
+        <!-- riga superiore contenente immagine di background e logo titolo -->
+        <div class="header-row-top">
+          <i class="logo fas fa-mountain"></i>
+          <h1 class="header-title">natural</h1>
+          <h2>another beautiful organic theme</h2>
+        </div>
+        <nav id="navigation" class="nav-row">
+          <ul>
+            <li class="nav-item"><a href="#">home</a></li>
+            <li class="nav-item"><a href="#">about</a></li>
+            <li class="nav-item"><a href="#">page templates</a></li>
+            <li class="nav-item"><a href="#">a parent page</a></li>
+            <li class="nav-item"><a href="#">features</a></li>
+            <li class="nav-item"><a href="#">blog</a></li>
+            <li class="nav-item"><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="row">
+        <aside class="column float-left"></aside>
+        <main class="center float-left"></main>
+        <aside class="column float-right">
+          <div class="vertical-box"></div>
+          <div class="vertical-box"></div>
+          <div class="vertical-box"></div>
+        </aside>
       </div>
-    </footer>
+      <footer>
+        <div class="top"></div>
+        <div class="bottom">
+          <i class="facebook"></i>
+          <i class="instagram"></i>
+          <i class="github"></i>
+        </div>
+      </footer>
+    </div>
 
   </body>
 </html>
