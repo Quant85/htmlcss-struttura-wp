@@ -12,6 +12,21 @@
   float: right;
 }
 
+.logo{
+  font-size: 2.5vw;
+}
+
+.bg-c{
+  background-color: #fff;
+}
+
+.br-10{
+  border-radius: 10px;
+}
+
+.pd-10{
+  padding: 10px;
+}
 
 /* End Class Utility */
 
@@ -29,7 +44,7 @@
 
 header{
   width: 100%;
-  background-color: #ffff00;
+  background-color: #fff;
   padding: 12px;
   margin: 24px auto 24px;
   text-align: center;
@@ -38,12 +53,15 @@ header{
 
 .header-row-top{
   width: 100%;
-  height: auto;
+  height: 30vh;
   min-height: 180px;
+  padding: 2px;
+  border: 1px solid black;
   margin: 0 auto;
   overflow: hidden;
   background-image: url(../img/natural-default-header.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .header-center-row{
@@ -57,8 +75,23 @@ header{
   transform: translate(-50%, -50%);
 }
 
+.logo-title{
+  width: 25%;
+  font-size: 3vw;
+  border: 4px solid #fff;
+  margin: auto;
+}
+
+.logo-subtitle{
+  font-size: 2vw;
+  margin: 3vh auto 0;
+}
+
+
 .nav-row{
   width: 100%;
+  /* height: 48px; */
+  line-height: 48px;
   display: inline-block;
   background-color: #504741;
   position: absolute;
@@ -67,18 +100,23 @@ header{
 }
 
 
-.nav-item, a{
-  color: #999;
+.nav-item, .nav-item > a{
+  color: #fff;
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 600;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
+  margin: auto 4px;
+}
+
+.nav-item:hover{
+  background-color: #302b27;
 }
 
 .row{
-  margin: auto;
+  margin: 48px auto 0;
 }
 
 .row::after{
@@ -89,26 +127,60 @@ header{
 
 aside.column{
   width: 20%;
-  min-height: 200px;
-  background-color: blue;
-  margin: 12px auto;
+  margin: 24px auto;
+}
+
+.icon-top{
+  font-size: 2em;
+  color: orange;
+  vertical-align: top;
+}
+
+aside.column h2{
+  color: #504741;
+}
+
+aside.sx h2{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+aside.column.sx > ul a{
+  text-decoration: none;
+  color: #1b8000;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  display: inline-block;
+  margin: 5px auto;
 }
 
 main.center{
   width: 40%;
-  height: 500px;
-  background-color: crimson;
-  margin: 12px 10%;
+  margin: 24px 10%;
+}
+
+.article-top h1{
+  color: #504741;
+  font-size: 1.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px rgba(0,0,0,.1);
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 20px auto 50px;
+}
+
+.article-top, .vertical-box{
+  color: #000000;
+  text-shadow: 1px 1px 1px #747474;
 }
 
 .vertical-box{
-  width: 100%;
-  height:200px;
-  background-color: lightgreen;
   margin: 0 0 20px 0;
 }
 
-footer{
+footer.contact{
   width: 100%;
   height: 80px;
   background-color: darkmagenta;
