@@ -8,24 +8,24 @@
   float: left;
 }
 
-.float-right{
-  float: right;
-}
-
-.logo{
-  font-size: 2.5vw;
-}
-
 .bg-c{
   background-color: #fff;
 }
 
-.br-10{
-  border-radius: 10px;
+.br-5{
+  border-radius: 5px;
 }
 
-.pd-10{
-  padding: 10px;
+.pd-20{
+  padding: 20px;
+}
+
+.pd-8{
+  padding: 8px;
+}
+
+.c-point{
+  cursor: pointer;
 }
 
 /* End Class Utility */
@@ -38,13 +38,15 @@
 
 .container.wrap{
   width: 70%;
+  min-width: 800px;
+  max-width: 1450px;
   background-color: lightblue;
   margin: auto;
 }
 
 header{
   width: 100%;
-  background-color: #fff;
+  background-color: #ffff00;
   padding: 12px;
   margin: 24px auto 24px;
   text-align: center;
@@ -53,10 +55,9 @@ header{
 
 .header-row-top{
   width: 100%;
-  height: 30vh;
+  height: auto;
   min-height: 180px;
-  padding: 2px;
-  border: 1px solid black;
+  max-height: 500px;
   margin: 0 auto;
   overflow: hidden;
   background-image: url(../img/natural-default-header.jpg);
@@ -76,21 +77,13 @@ header{
 }
 
 .logo-title{
-  width: 25%;
-  font-size: 3vw;
-  border: 4px solid #fff;
-  margin: auto;
+  font-weight: 700;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  font-size: 1.6em;
 }
-
-.logo-subtitle{
-  font-size: 2vw;
-  margin: 3vh auto 0;
-}
-
 
 .nav-row{
   width: 100%;
-  /* height: 48px; */
   line-height: 48px;
   display: inline-block;
   background-color: #504741;
@@ -99,20 +92,16 @@ header{
   left: 0;
 }
 
-
 .nav-item, .nav-item > a{
   color: #fff;
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight: 600;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   margin: auto 4px;
-}
-
-.nav-item:hover{
-  background-color: #302b27;
+  /* devo eliminare i 4px di margine dai link */
 }
 
 .row{
@@ -126,8 +115,9 @@ header{
 }
 
 aside.column{
-  width: 20%;
-  margin: 24px auto;
+  width: 15%;
+  margin-top: 24px;
+  background-color: #ffffff;
 }
 
 .icon-top{
@@ -136,52 +126,42 @@ aside.column{
   vertical-align: top;
 }
 
-aside.column h2{
-  color: #504741;
-}
-
 aside.sx h2{
+  width: 75%;
+  font-size: 1.6em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  color: #504741;
   display: inline-block;
-  margin-left: 5px;
+  margin: 0px 0 10px 5px;
 }
 
-aside.column.sx > ul a{
-  text-decoration: none;
-  color: #1b8000;
-  font-size: 1.2em;
-  font-weight: 600;
-  font-family: 'Roboto',Arial,Helvetica,sans-serif;
-  display: inline-block;
-  margin: 5px auto;
+.column-sx-title{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside.column.sx > ul{
+  list-style: none;
 }
 
 main.center{
-  width: 40%;
-  margin: 24px 10%;
-}
-
-.article-top h1{
-  color: #504741;
-  font-size: 1.6em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 0px rgba(0,0,0,.1);
-  letter-spacing: -1px;
-  line-height: 1.2;
-  margin: 20px auto 50px;
-}
-
-.article-top, .vertical-box{
-  color: #000000;
-  text-shadow: 1px 1px 1px #747474;
+  width: 60%;
+  margin: 24px 5%;
+  padding: 20px 30px 30px;
+  /* box-shadow: 1px 1px 1px black, -1px -1px 1px black; */
 }
 
 .vertical-box{
-  margin: 0 0 20px 0;
+  width: 100%;
+  background-color: lightgreen;
+  margin-bottom: 48px;
 }
 
-footer.contact{
+footer{
   width: 100%;
   height: 80px;
   background-color: darkmagenta;
+  margin-bottom: 30px;
 }
