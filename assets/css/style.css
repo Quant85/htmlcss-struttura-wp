@@ -20,12 +20,25 @@
   padding: 20px;
 }
 
+<<<<<<< HEAD
 .pd-8{
   padding: 8px;
 }
 
 .c-point{
   cursor: pointer;
+=======
+.br-5{
+  border-radius: 5px;
+}
+
+.pd-20{
+  padding: 20px;
+}
+
+.pd-8{
+  padding: 8px;
+>>>>>>> main
 }
 
 /* End Class Utility */
@@ -38,9 +51,12 @@
 
 .container.wrap{
   width: 70%;
+<<<<<<< HEAD
   min-width: 800px;
   max-width: 1450px;
   background-color: lightblue;
+=======
+>>>>>>> main
   margin: auto;
 }
 
@@ -55,7 +71,11 @@ header{
 
 .header-row-top{
   width: 100%;
+<<<<<<< HEAD
   height: auto;
+=======
+  height: 35vh;
+>>>>>>> main
   min-height: 180px;
   max-height: 500px;
   margin: 0 auto;
@@ -117,7 +137,10 @@ header{
 aside.column{
   width: 15%;
   margin-top: 24px;
+<<<<<<< HEAD
   background-color: #ffffff;
+=======
+>>>>>>> main
 }
 
 .icon-top{
@@ -126,6 +149,17 @@ aside.column{
   vertical-align: top;
 }
 
+<<<<<<< HEAD
+=======
+aside.column.dx h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  color: #504741;
+  margin: 20px auto 40px;
+}
+
+>>>>>>> main
 aside.sx h2{
   width: 75%;
   font-size: 1.6em;
@@ -134,6 +168,7 @@ aside.sx h2{
   color: #504741;
   display: inline-block;
   margin: 0px 0 10px 5px;
+<<<<<<< HEAD
 }
 
 .column-sx-title{
@@ -164,4 +199,86 @@ footer{
   height: 80px;
   background-color: darkmagenta;
   margin-bottom: 30px;
+=======
+}
+
+aside.column.sx > ul a{
+  text-decoration: none;
+  color: #1b8000;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  display: inline-block;
+  margin: 5px auto;
+}
+
+main.center{
+  width: 60%;
+  margin: 24px 5%;
+  padding: 20px 30px 30px;
+  /* box-shadow: 1px 1px 1px black, -1px -1px 1px black; */
+}
+
+.article-top h1{
+  color: #504741;
+  font-size: 1.6em;
+  font-weight: 600;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px rgba(0,0,0,.1);
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 20px auto 50px;
+}
+
+.article-top, .vertical-box{
+  color: #000000;
+  text-shadow: 1px 1px #d9d9d9;
+}
+
+.vertical-box{
+  margin-bottom: 48px;
+}
+
+p{
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  line-height: 1.8;
+}
+
+footer.contact{
+  text-align: center;
+  width: 100%;
+  height: 140px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.contact-link{
+  color: #959595;
+  text-decoration: none;
+}
+
+h3.made{
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  line-height: 1.8;
+  border-bottom: 1px solid #cecece;
+}
+
+.contact-bottom{
+  font-size: calc(110px / 3);
+  position: relative;
+  top: 25%;
+}
+
+.contact-link .icon {
+  padding: 0 calc(100% / 6.6)
+}
+
+.contact-link:hover{
+  color:#ff3399;
+>>>>>>> main
 }
